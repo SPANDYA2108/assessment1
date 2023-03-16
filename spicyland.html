@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="spicyland main.css">
+</head>
+<body>
+    <section class="banner">
+        <h2>BOOK YOUR TABLE</h2>
+        <div class="card-container">
+            <div class="card-img">
+                <img src="" alt="">
+            </div>
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form action="">
+                    <div class="form">
+                        <select name="Choice Of Booking" id="">
+                            <option value="day select">Select day</option>
+                            <option value="day select"> Full Day Booking</option>
+                            <option value="day select">Half Day Booking</option>
+                            <option value="day select">Hourly Booking</option>
+                        </select>
+                        <select name="hours" id="">
+                            <option value="hours">Select hours</option>
+                            <option value="10">10: 00</option>
+                            <option value="12">12: 00</option>
+                            <option value="14">14: 00</option>
+                            <option value="16">16: 00</option>
+                            <option value="18">18: 00</option>
+                            <option value="20">20: 00</option>
+                            <option value="22">20: 00</option>
+                        </select>
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="User Name">
+                        <input type="text" placeholder="Phone Number">
+                        <input type="text" placeholder="Email id">
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="No of person" min="1">
+                        <input type="submit" value="BOOK NOW">
+                    </div>
+                    <div class="form">
+                        <select name="Slot" id="">
+                            <option value="day select">Select Slot</option>
+                            <option value="day select"> Breakfast</option>
+                            <option value="day select">Lunch</option>
+                            <option value="day select">Dinner</option>
+                        </select>
+                    </div>
+                    <button class="button" onclick="document.getElementById('success').innerHTML=creatnode()">BOOK NOW</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
